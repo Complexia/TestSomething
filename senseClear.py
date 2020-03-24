@@ -1,4 +1,4 @@
-from sense import SenseHat
+from sense_hat import SenseHat
 sense = SenseHat()
 
 r = 255
