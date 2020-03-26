@@ -10,6 +10,6 @@ cpuTempFloat = float(array2[0])
 
 temp = sense.get_temperature()
 
-actualTemp = temp - ((cpuTempFloat - temp)/7.5)
+actualTemp = temp - ((cpuTempFloat - temp)/13.5)
 print(actualTemp)
 
