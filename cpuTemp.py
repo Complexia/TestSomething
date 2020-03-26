@@ -8,7 +8,7 @@ array1 = str(cpuTemp).split("=")
 array2 = array1[1].split("'")
 cpuTempFloat = float(array2[0])
 
-temp = sense.getTemperature()
+temp = sense.get_temperature()
 
 actualTemp = temp - ((cpuTempFloat - temp)/5.5)
 print(actualTemp)
